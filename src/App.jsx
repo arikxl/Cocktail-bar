@@ -1,9 +1,9 @@
 import React from 'react';
 
 import './App.css';
-import Layout from './layout/Layout';
-import Search from './cmps/search/Search';
-import Random from './cmps/random/Random.jsx';
+import Layout from './layout/Layout.jsx';
+import Search from './cmps/Search.jsx';
+import Random from './cmps/Random.jsx';
 
 const App = () => {
   return (

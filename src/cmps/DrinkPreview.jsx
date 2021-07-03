@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DrinkDetails = ({drink}) => {
+const DrinkPreview = ({drink}) => {
     return (
         <div className="list-item">
             <div>{drink.strDrink}</div>
@@ -14,4 +14,4 @@ const DrinkDetails = ({drink}) => {
     )
 }
 
-export default DrinkDetails
+export default DrinkPreview

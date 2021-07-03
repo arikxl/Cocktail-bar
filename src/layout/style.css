@@ -34,12 +34,11 @@
   .logo span {
     color: var(--purple);
     font-family: 'Alfa Slab One', cursive;
-    font-size: 1.5rem;
+    font-size: 3rem;
     letter-spacing: 2px;
     font-weight: 700;
     text-align: center;
     display: flex;
-
   }
   #main {
     grid-area: main;
@@ -48,7 +47,9 @@
     grid-area: footer;
     box-shadow: 0px -2px 5px -1px rgb(50 50 93 / 25%),
       0px -1px 3px -1px rgb(0 0 0 / 30%);
+      font-size: 1rem;
   }
+
   
   .App {
     text-align: center;
@@ -56,17 +57,19 @@
   h2 {
     color: var(--orang);
     text-decoration: underline;
+    margin: 0;
   }
   h3 {
     color: var(--purple);
     font-family: 'Alfa Slab One', cursive;
     letter-spacing: 2px;
+    margin:0;
   }
   /* ===================================== 
     -----------  Input    -----------
     ======================================== */
   input[type='text'] {
-    width: 100%;
+    width: 30%;
     padding: 0.4rem 0.6rem;
     margin: 8px 0;
     box-sizing: border-box;
@@ -76,7 +79,7 @@
     color: var(--darker);
   }
   input:focus {
-    outline-color: deeppink;
+    outline: none;
   }
   .search {
     display: flex;
@@ -109,7 +112,7 @@
   .list-item {
     display: flex;
     align-items: center;
-    width: 300px;
+    width: 30%;
     justify-content: space-between;
     margin: 1rem auto;
     font-size: 1.5rem;
@@ -118,5 +121,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+  }
+
+  .random-img{
+    width: 30%;
   }
   

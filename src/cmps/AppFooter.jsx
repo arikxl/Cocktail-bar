@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return (
         <footer id="footer">
-            © arikxl 2021
+           <small>© arikxl 2021</small> 
         </footer>
     )
 }
