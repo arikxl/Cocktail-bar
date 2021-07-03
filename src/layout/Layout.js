@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Header from '../cmps/header/Header';
-import Footer from '../cmps/footer/Footer';
+import Header from '../cmps/header/Header.jsx';
+import Footer from '../cmps/footer/Footer.jsx';
 import './style.css';
 
 
