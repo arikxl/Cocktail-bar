@@ -3,11 +3,7 @@
     --purple: #c71585;
     --orang: #feaf77;
   }
-  
-  /* ===================================== 
-    -----------    Grid Layout    -----------
-    ======================================== */
-  
+    /* -----------    Grid Layout    ----------- */
   .container {
     height: 100vh;
     color: var(--darker);
@@ -50,7 +46,6 @@
       font-size: 1rem;
   }
 
-  
   .App {
     text-align: center;
   }
@@ -65,9 +60,7 @@
     letter-spacing: 2px;
     margin:0;
   }
-  /* ===================================== 
-    -----------  Input    -----------
-    ======================================== */
+    /* -----------  Input    ----------- */
   input[type='text'] {
     width: 30%;
     padding: 0.4rem 0.6rem;
@@ -88,10 +81,7 @@
   .search-input {
     max-width: 55%;
   }
-  /* ===================================== 
-    -----------  Header    -----------
-    ======================================== */
-  
+    /* -----------  Header    ----------- */
   .fav {
     border-radius: 50vw;
     cursor: pointer;
@@ -103,9 +93,7 @@
   .fav:hover {
     background-color: #ffeafa;
   }
-  /* ===================================== 
-    -----------  content    -----------
-    ======================================== */
+    /* -----------  content    ----------- */
   .search-container {
     margin: 0.5rem 1rem;
   }
@@ -121,7 +109,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
   }
 
   .random-img{
